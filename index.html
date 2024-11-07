@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M&L Brothership Countdown</title>
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/styles.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+
+    <script src="scripts/countdown.js" defer></script>
+
+</head>
+<body>
+<header>
+    <img src="images/brothership-logo.png" id="logo">
+    <h1>Countdown Timer</h1>
+</header>
+
+<div id="main">
+    <nav>
+        <h2>Navigation List</h2>
+        <ul>
+            <li><a href="#timer">Countdown timer</a></li>
+            <li><a href="#whatIsBrothership">What is Brothership?</a></li>
+            <li><a href="#whyIsBrothership">Why is Brothership exciting?</a></li>
+            <li><a href="#howIsBrothership">How do I play Brothership?</a></li>
+        </ul>
+    </nav>
+
+
+        <!--Structure for timer-->
+        <div id="timerContainer" class="animateFromRight">
+            <h2>Countdown</h2>
+            <div id="timer">
+                
+                <!--Large Days Box-->
+                <div id="daysBox" class="timerBox">
+                    <h4>Days</h4>
+                    <div id="daysCounter" class="timerBox">1</div>
+                </div>
+
+                    <!--Smaller boxes (hrs, mins, secs)-->
+                    <div id="smallTimerBoxes">
+                        <div id="hrsBox" class="smallTimerBox">
+                            <h4>Hours</h4>
+                            <div id="hrsCounter" class="smallCounter">1</div>
+                        </div>
+                        <div id="minsBox" class="smallTimerBox">
+                            <h4>Minutes</h4>
+                            <div id="minsCounter" class="smallCounter">1</div>
+                        </div>
+                        <div id="secsBox" class="smallTimerBox">
+                            <h4>Seconds</h4>
+                            <div id="secsCounter" class="smallCounter">1</div>
+                        </div>
+                    </div>
+                    
+            </div>
+            <h2 id="afterRelease">Mario and Luigi: Brothership is out! You can buy the game here:<a href="https://www.nintendo.com/us/store/products/mario-and-luigi-brothership-switch/?srsltid=AfmBOopBSVeAKtuB1y_7x1CUAcGzDqyU3ZvcFHDD0Gll2d9RtFmCrQBQ" target="_blank">LINK</a></h2>
+        </div>
+
+    <article id="whatIsBrothership" class="animateFromRight">
+        <h2>What is Mario and Luigi: Brothership?</h2>
+        <p>Mario and Luigi: Brothership is the latest upcoming first-party game from Nintendo. The game features the titular characters, Mario and Luigi, as they sail around the world of Concordia on a boat that’s also an island. It keeps the same wacky style and humor as the past Mario and Luigi games, but with improved graphics on the Switch. The theme of the game is connection, which is emphasized by the fun electrical-themed characters you meet throughout the game. Bowser does show up as one of the villains of the game, but there’s still lots of other fun villains like the wacky extension corps.</p>
+        <img src="images/brothership-extension-corps.webp" id="extension" />
+    </article>
+    
+    <article id="whyIsBrothership" class="animateFromLeft">
+        <h2>Why is Brothership exciting?</h2>
+        <p>The Mario and Luigi game series is a fan-favorite series of games by Nintendo. It is a series of RPGs with unique gameplay where you control both Mario and Luigi simultaneously. Previously, the studio that developed every Mario and Luigi game was Alphadream, but the studio shut down in 2019. Many people thought that there weren't going to be any more Mario and Luigi games because of this. However, Mario and Luigi: Brothership was announced in June of 2024, being developed by the studio Acquire. It's also the first Mario and Luigi game on a home console.</p>
+        <img src="images/brothership-brothers.jpg" id="brothers" />
+    </article>
+
+    <article id="howIsBrothership" class="animateFromRight">
+        <h2>How do I play Brothership?</h2>
+        <p>After Mario and Luigi: Brothership comes out, it will be available to buy in many stores. Some of these stores are Gamestop, Walmart and Target. It is only on the switch, so you won't be able to play it on any other console or a PC (unless you sail the high seas). (yo ho ho). It also doesn't seem to require motion controls unlike some past Mario and Luigi games, so any third-party controllers without motion control functionality can be used to play it.</p>
+        <img src="images/brothership-render.jpg" id="render" />
+    </article>
+   
+</div>
+
+
+<footer>
+    <p>DISCLAIMER: I do not own any of the copyright for Mario and Luigi: Brothership. All copyright of the game belongs to Nintendo.</p>
+</footer>
+</body>
+</html>
