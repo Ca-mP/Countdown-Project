@@ -59,8 +59,9 @@ nav {
 
 nav h2 {
     width: 100%;
+    font-family: Ubuntu, sans-serif;
     font-size: 3rem;
-    line-height: 3rem;
+    line-height: 4rem;
     text-align: center;
 }
 
@@ -131,6 +132,7 @@ article {
 
 #main article h2 {
     font-size: 2rem;
+    font-family: Ubuntu, sans-serif;
     line-height: 2rem;
 }
 
@@ -165,6 +167,7 @@ article {
     background-color: #04756F;
     border-radius: 30px;
     border: 3px solid #D90000;
+    font-family: Ubuntu, sans-serif;
     font-size: 70pt;
     line-height: 70pt;
     width: 70%;
@@ -188,6 +191,7 @@ article {
 
 #daysBox > h4 {
     display: flex;
+    font-family: Ubuntu, sans-serif;
     font-size: 50pt;
     font-weight: bold;
     letter-spacing: 10pt;
@@ -234,6 +238,7 @@ h2#afterRelease {
 
 .smallTimerBox {
     background-color: #FF2D00;
+    font-family: Ubuntu, sans-serif;
     border-radius: 5px;
     display: flex;
     flex-flow: row wrap;
